@@ -1,0 +1,26 @@
+
+/* ── RESPONSIVE ── */
+@media(max-width:960px){
+  nav{padding:0 24px;}
+  .nav-links{display:none;}
+  .hamburger{display:flex;}
+  .mobile-menu{display:block;}
+  section{padding:80px 24px;}
+  .hero-inner{grid-template-columns:1fr;gap:0;}
+  .hero-right{display:none;}
+  .about-grid{grid-template-columns:1fr;gap:50px;}
+  .about-visual{justify-content:center;}
+  footer{flex-direction:column;text-align:center;}
+  .lb-prev{left:-12px;}
+  .lb-next{right:-12px;}
+  .skills-icon-grid{grid-template-columns:repeat(3,1fr);}
+  .portfolio-popup {width:100%; min-height: auto;}
+  .popup-info .popup-title {font-size: 1.1rem;}
+  .popup-footer {padding: 19px 14px;}
+  .popup-visit {padding: 12px 11px;}
+}
+@media(max-width:600px){
+  .skills-icon-grid{grid-template-columns:repeat(2,1fr);}
+  .about-grid{gap:36px;}
+  .popup-nav-btn {width: 37px; height: 35px; font-size: 1rem;}
+}
